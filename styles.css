@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 1rem;
+  background: linear-gradient(to left, #27ce96, #20ce3d, #9be01b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - (37px + 1rem * 2));
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(#27ce96, #20ce3d, #9be01b);
+}
